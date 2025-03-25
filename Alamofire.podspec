@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   # 1.12.0: Ensure developers won't hit CocoaPods/CocoaPods#11402 with the resource
   # bundle for the privacy manifest.
   # 1.13.0: visionOS is recognized as a platform.
-  s.cocoapods_version = '>= 1.13.0'
+  # s.cocoapods_version = '>= 1.13.0'
 
   s.ios.deployment_target = '10.0'
   s.osx.deployment_target = '10.12'
